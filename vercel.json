@@ -1,5 +1,21 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.arvishconstructions.com"
+        }
+      ],
+      "destination": "https://arvishconstructions.com/$1",
+      "permanent": true
+    }
   ]
 }
