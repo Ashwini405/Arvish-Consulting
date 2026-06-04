@@ -247,7 +247,7 @@ const ServiceNowPage = () => {
                   { title: 'Higher Efficiency', icon: '📈' },
                   { title: 'Risk Reduction', icon: '🛡️' },
                   { title: 'Future Ready', icon: '🚀' },
-                  // { title: 'Continuous Improvement', icon: '🔄' }
+                  { title: 'Continuous Improvement', icon: '🔄' }
                 ].map((benefit, index) => (
                   <div key={index} className="text-center p-2.5 md:p-3 lg:p-4 bg-gradient-to-br from-teal-50 to-blue-50 rounded-lg md:rounded-xl">
                     <div className="text-lg md:text-xl lg:text-2xl mb-1 md:mb-1.5 lg:mb-2">{benefit.icon}</div>
